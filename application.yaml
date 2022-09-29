@@ -9,7 +9,7 @@ spec:
   source:
     repoURL: https://github.com/Garvit-Jethwani/voting-app-argo.git
     targetRevision: HEAD
-    path: voter
+    path: configFiles
   destination: 
     server: https://kubernetes.default.svc
     namespace: votingApp
