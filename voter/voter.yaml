@@ -33,7 +33,7 @@ spec:
     spec:
       containers:
       - name: voter
-        image: local-registry:5002/voter:latest
+        image: zbio/voter:latest
         stdin: true
         tty: true
         env:
