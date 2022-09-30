@@ -33,7 +33,7 @@ spec:
     spec:
       containers:
       - name: voter
-        image: zbio/voter:v1.0.2
+        image: zbio/voter:latest
         stdin: true
         tty: true
         env:
